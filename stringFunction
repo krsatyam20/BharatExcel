@@ -1,0 +1,20 @@
+=left(text, num_char) : extract the leftmost characters from a string
+=right(text, num_char) : extract the Righttmost characters from a string
+= LEN(text) :length of a string that is number of characters in a string.
+= MID(text, start_char, num_chars) :extract the characters from the middle of a string.
+=FIND(find_text, within_text,[start_num]) :the position of certain characters in a particular string.
+=PROPER(Text) :capitalizes each word in the string.it converts the case into proper case.
+=REPT(Text, number_times) :text to be repeated certain number of times.
+=TRIM(Text ):emoves the unnecessary spaces from a particular string.
+=UPPER(Text ):converts the text into Upper case from lower case.
+=SUBSTITUTE(text, old_text, new_text, instance number):to replace existing text with a new text in a particular string. 
+=CONCATENATE(text1, text2….) :join the text of two or more cells. 
+Join Strings: To join strings, use the & operator.
+
+To get the first name, use the formula below.
+=RIGHT(A2,LEN(A2)-FIND(" ",A2))
+
+To get the last name, use the following formula.
+=LEFT(A2,FIND(" ", A2)) 
+
+
